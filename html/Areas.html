@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Areas</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="https://kit.fontawesome.com/e78fc278fc.js" crossorigin="anónimo"> </script>
+</head>
+
+<body>
+    <header>
+        <img src="../assets/img/logo.jpeg" alt="Logo">
+        <h1>AREA DE PRACTICA</h1>
+        <div class="header__nav" id="myTopnav">
+            <a href="../index.html">INICIO</a>
+            <a href="./Antecedentes.html">ANTECEDENTES</a>
+            <a href="./Areas.html">AREA DE PRACTICA</a>
+            <a href="./Clientes.html">CLIENTES</a>
+            <a href="./Contacto.html">CONTACTO</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <script>function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "header__nav") {
+                    x.className += " responsive";
+                }
+                else {
+                    x.className = "header__nav";
+                }
+            }</script>
+    </header>
+    <section>
+
+        <ul class="areasDePractica">
+
+            <li>DERECHO PENAL</li>
+            <li>DERECHO TRIBUTARIO</li>
+            <li>DERECHO DE FAMILIA Y SUCESIONES</li>
+            <li>DERECHO LABORAL</li>
+            <li>DAÑOS</li>
+            <li>CONSURSOS Y QUIEBRAS</li>
+        </ul>
+        <img src="../assets/img/libros.jpg" alt="">
+
+    </section>
+
+    <footer>
+        <img src="../assets/img/logo.jpeg" alt="Logo">
+        <div>
+            <a href=""><i class="fab fa-instagram-square"></i></a>
+            <a href=""><i class="fab fa-facebook-square"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
